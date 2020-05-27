@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: reactive_cosmos_example
+  data:
+    mongodb:
+      host: hosturl
+      database: ReactiveDemo
+      user: user
+      password: password
+      port: 10255
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.ReactiveMongoTemplate: DEBUG
